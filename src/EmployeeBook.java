@@ -36,6 +36,12 @@ public class EmployeeBook {
         System.out.println("Сотрудника с таким ФИО нет");
     }
 
+    public void initialsEmployee() {
+        for (Employee employee : employees) {
+            System.out.println("ФИО сотрудника: " + employee.getSurnameEmployee() + ' ' + employee.getNameEmployee() + ' ' + employee.getMiddleEmployee());
+        }
+    }
+
     //Вывод списка всех сотрудников
     public void printAllEmployee() {
         for (Employee employee : employees) {

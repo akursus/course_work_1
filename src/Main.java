@@ -6,12 +6,6 @@ public class Main {
              employeeBook.printSumSalary();
             System.out.println("Минимальная зарплата у: " +employeeBook.getEmployeeWithMinSalary());
             System.out.println("Максимальная зарплата у: " +employeeBook.getEmployeeWithMaxSalary());
-
-
-
-
-
-
+            employeeBook.initialsEmployee();
         }
-
     }
